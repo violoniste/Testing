@@ -27,7 +27,8 @@ class FlightBuilder {
                 //Another flight with more than two hours ground time
                 createFlight(threeDaysFromNow, threeDaysFromNow.plusHours(2),
                         threeDaysFromNow.plusHours(3), threeDaysFromNow.plusHours(4),
-                        threeDaysFromNow.plusHours(6), threeDaysFromNow.plusHours(7)));
+                        threeDaysFromNow.plusHours(6), threeDaysFromNow.plusHours(7))
+        );
     }
 
     private static Flight createFlight(final LocalDateTime... dates) {
